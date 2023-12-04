@@ -49,48 +49,6 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex justify-center flex-wrap ">
-                    {/* <Card
-                        img="https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg"
-                        name="Cappuccino"
-                        pricing="$5.20"
-                        rating={4.7}
-                        votes={65}
-                    />
-                    <Card
-                        img="https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg"
-                        name="Cappuccino"
-                        pricing="$5.20"
-                        rating={4.7}
-                        votes={65}
-                    />
-                    <Card
-                        img="https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg"
-                        name="Cappuccino"
-                        pricing="$5.20"
-                        rating={4.7}
-                        votes={65}
-                    />
-                    <Card
-                        img="https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg"
-                        name="Cappuccino"
-                        pricing="$5.20"
-                        rating={4.7}
-                        votes={65}
-                    />
-                    <Card
-                        img="https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg"
-                        name="Cappuccino"
-                        pricing="$5.20"
-                        rating={4.7}
-                        votes={65}
-                    />
-                    <Card
-                        img="https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg"
-                        name="Cappuccino"
-                        pricing="$5.20"
-                        rating={4.7}
-                        votes={65}
-                    /> */}
                     {data?.map((item) => (
                         <Card
                             key={item.id}
