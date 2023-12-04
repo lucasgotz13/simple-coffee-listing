@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-type Card = {
+export type CardType = {
+    id: number;
     img: string;
     name: string;
     pricing: string;
@@ -16,7 +17,7 @@ export default function Card({
     rating,
     votes,
     available,
-}: Card) {
+}: CardType) {
     return (
         <div className="p-3 flex flex-col justify-between basis-1/3">
             <Image
