@@ -32,7 +32,7 @@ export default function Home() {
                 />
             </div>
             <section className="mx-96 mt-20 px-20 py-5 z-1 absolute rounded-lg bg-secondary-background flex flex-col justify-center items-center">
-                <div className="p-3 mt-5 flex flex-col gap-2.5">
+                <div className="p-2 mt-5 flex flex-col gap-2.5">
                     <h1 className="text-4xl text-center text-white font-bold">
                         Our Collection
                     </h1>
@@ -57,6 +57,7 @@ export default function Home() {
                             pricing={item.price}
                             rating={item.rating}
                             votes={item.votes}
+                            available={item.available}
                         />
                     ))}
                 </div>
