@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 export type CardType = {
-    id: number;
     img: string;
     name: string;
     pricing: string;
